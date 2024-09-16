@@ -37,6 +37,6 @@ media_idade = soma_idade/contador_pessoas
 pessoas_acima_da_media = [(dicionario.items())
                           for dicionario in lista if dicionario['idade'] > media_idade]
 print(f'A) Ao todo temos {contador_pessoas} pessoas cadastradas')
-print(f'B) A média da idade é de {media_idade} anos.')
+print(f'B) A média da idade é de {media_idade:.2f} anos.')
 print(f'C) As mulheres cadastradas foram:  {nomes}')
 print(f'D) Pessoas acima da média: {pessoas_acima_da_media}')
