@@ -6,6 +6,10 @@ import random
 lista = []
 
 def sorteia():
+    """
+    Sorteia 5 numeros aleatórios de 0 a 10
+    :return:
+    """
     for c in range (5):
         aleatorio = random.randint(0,10)
         lista.append(aleatorio)
@@ -17,6 +21,7 @@ def somaPar():
         if d % 2 == 0:
             soma_pares += d
     return soma_pares
+
 
 sorteia()
 soma_pares = somaPar()
